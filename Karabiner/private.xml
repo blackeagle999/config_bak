@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>syn keymap</name>
+    <identifier>private.syn_keymap_programmer</identifier>
+
+    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::FN</autogen>   
+
+    <autogen>__KeyToKey__ KeyCode::2,ModifierFlag::FN, KeyCode::9,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::3,ModifierFlag::FN, KeyCode::0,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::W,ModifierFlag::FN, KeyCode::BRACKET_LEFT,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::E,ModifierFlag::FN, KeyCode::BRACKET_RIGHT,ModifierFlag::SHIFT_L</autogen>   
+    <autogen>__KeyToKey__ KeyCode::S,ModifierFlag::FN, KeyCode::BRACKET_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::D,ModifierFlag::FN, KeyCode::BRACKET_RIGHT</autogen>  
+    <autogen>__KeyToKey__ KeyCode::X,ModifierFlag::FN, KeyCode::COMMA,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::C,ModifierFlag::FN, KeyCode::DOT,ModifierFlag::SHIFT_L</autogen>
+
+    <autogen>__KeyToKey__ KeyCode::F,ModifierFlag::FN, KeyCode::EQUAL</autogen>
+    <autogen>__KeyToKey__ KeyCode::V,ModifierFlag::FN, KeyCode::MINUS,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::R,ModifierFlag::FN, KeyCode::MINUS</autogen>  
+    <autogen>__KeyToKey__ KeyCode::T,ModifierFlag::FN, KeyCode::EQUAL,ModifierFlag::SHIFT_L</autogen> 
+
+    <autogen>__KeyToKey__ KeyCode::O,ModifierFlag::FN, KeyCode::SPACE</autogen>  
+    <autogen>__KeyToKey__ KeyCode::U,ModifierFlag::FN, KeyCode::DELETE</autogen>  
+  </item>
+
+
+    <item>
+      <name>Space to FN</name>
+      <appendix>(+ When you type Space only, send Space)</appendix>
+      <identifier>remap.space2FN_space</identifier>
+      <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, KeyCode::FN, KeyCode::SPACE</autogen>
+    </item>
+
+</root>
