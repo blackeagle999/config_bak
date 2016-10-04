@@ -1,35 +1,51 @@
 <?xml version="1.0"?>
 <root>
+
+  <item>
+    <name>Space to FN</name>
+    <appendix>(+ When you type Space only, send Space)</appendix>
+    <identifier>remap.space2FN_space</identifier>
+    <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, KeyCode::FN, KeyCode::SPACE</autogen>
+  </item>
+
   <item>
     <name>syn keymap</name>
     <identifier>private.syn_keymap_programmer</identifier>
 
-    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::FN</autogen>   
+    <autogen>__KeyToKey__ KeyCode::J,ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>  
+    <autogen>__KeyToKey__ KeyCode::K,ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
+    <autogen>__KeyToKey__ KeyCode::L,ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
+    <autogen>__KeyToKey__ KeyCode::I,ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
+    <autogen>__KeyToKey__ KeyCode::O,ModifierFlag::FN, KeyCode::CURSOR_RIGHT,ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::U,ModifierFlag::FN, KeyCode::CURSOR_LEFT,ModifierFlag::OPTION_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::H,ModifierFlag::FN, KeyCode::CURSOR_LEFT,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON,ModifierFlag::FN, KeyCode::CURSOR_RIGHT,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::Y,ModifierFlag::FN, KeyCode::CURSOR_DOWN,ModifierFlag::FN</autogen>
+    <autogen>__KeyToKey__ KeyCode::P,ModifierFlag::FN, KeyCode::CURSOR_UP,ModifierFlag::FN</autogen>
 
-    <autogen>__KeyToKey__ KeyCode::2,ModifierFlag::FN, KeyCode::9,ModifierFlag::SHIFT_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::3,ModifierFlag::FN, KeyCode::0,ModifierFlag::SHIFT_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::W,ModifierFlag::FN, KeyCode::BRACKET_LEFT,ModifierFlag::SHIFT_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::E,ModifierFlag::FN, KeyCode::BRACKET_RIGHT,ModifierFlag::SHIFT_L</autogen>   
-    <autogen>__KeyToKey__ KeyCode::S,ModifierFlag::FN, KeyCode::BRACKET_LEFT</autogen>
-    <autogen>__KeyToKey__ KeyCode::D,ModifierFlag::FN, KeyCode::BRACKET_RIGHT</autogen>  
-    <autogen>__KeyToKey__ KeyCode::X,ModifierFlag::FN, KeyCode::COMMA,ModifierFlag::SHIFT_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::C,ModifierFlag::FN, KeyCode::DOT,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::E,ModifierFlag::FN, KeyCode::CURSOR_UP,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::D,ModifierFlag::FN, KeyCode::CURSOR_DOWN,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::S,ModifierFlag::FN, Ke yCode::BRACKET_LEFT,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::F,ModifierFlag::FN, KeyCode::BRACKET_RIGHT,ModifierFlag::COMMAND_L</autogen>
 
-    <autogen>__KeyToKey__ KeyCode::F,ModifierFlag::FN, KeyCode::EQUAL</autogen>
-    <autogen>__KeyToKey__ KeyCode::V,ModifierFlag::FN, KeyCode::MINUS,ModifierFlag::SHIFT_L</autogen>
-    <autogen>__KeyToKey__ KeyCode::R,ModifierFlag::FN, KeyCode::MINUS</autogen>  
-    <autogen>__KeyToKey__ KeyCode::T,ModifierFlag::FN, KeyCode::EQUAL,ModifierFlag::SHIFT_L</autogen> 
+    <autogen>__KeyToKey__ KeyCode::Z,ModifierFlag::FN, KeyCode::Z,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::X,ModifierFlag::FN, KeyCode::X,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::C,ModifierFlag::FN, KeyCode::C,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::V,ModifierFlag::FN, KeyCode::V,ModifierFlag::COMMAND_L</autogen>
 
-    <autogen>__KeyToKey__ KeyCode::O,ModifierFlag::FN, KeyCode::SPACE</autogen>  
-    <autogen>__KeyToKey__ KeyCode::U,ModifierFlag::FN, KeyCode::DELETE</autogen>  
+    <autogen>__KeyToKey__ KeyCode::T,ModifierFlag::FN, KeyCode::D,ModifierFlag::COMMAND_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::T,ModifierFlag::FN|ModifierFlag::SHIFT_L, KeyCode::B,ModifierFlag::OPTION_L|ModifierFlag::COMMAND_L</autogen>
+
+    <autogen>__KeyToKey__ KeyCode::0,ModifierFlag::FN, KeyCode::CURSOR_RIGHT,ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L,KeyCode::DELETE</autogen>
+    <autogen>__KeyToKey__ KeyCode::9,ModifierFlag::FN, KeyCode::CURSOR_LEFT,ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L,KeyCode::DELETE</autogen> 
+    <autogen>__KeyToKey__ KeyCode::8,ModifierFlag::FN, KeyCode::CURSOR_LEFT,ModifierFlag::COMMAND_L,KeyCode::CURSOR_DOWN,ModifierFlag::SHIFT_L,KeyCode::DELETE</autogen> 
+
+    <autogen>__KeyToKey__ KeyCode::N,ModifierFlag::FN, KeyCode::SPACE</autogen>
+    <autogen>__KeyToKey__ KeyCode::M,ModifierFlag::FN, KeyCode::SPACE</autogen>
+
+    <autogen>__KeyToKey__ KeyCode::RETURN,ModifierFlag::FN, KeyCode::CURSOR_RIGHT,ModifierFlag::COMMAND_L,KeyCode::RETURN</autogen>
+
   </item>
 
-
-    <item>
-      <name>Space to FN</name>
-      <appendix>(+ When you type Space only, send Space)</appendix>
-      <identifier>remap.space2FN_space</identifier>
-      <autogen>__KeyOverlaidModifier__ KeyCode::SPACE, KeyCode::FN, KeyCode::SPACE</autogen>
-    </item>
 
 </root>
