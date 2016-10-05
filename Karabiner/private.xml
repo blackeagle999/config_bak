@@ -39,9 +39,15 @@
     <autogen>__KeyToKey__ KeyCode::0,ModifierFlag::FN, KeyCode::CURSOR_RIGHT,ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L,KeyCode::DELETE</autogen>
     <autogen>__KeyToKey__ KeyCode::9,ModifierFlag::FN, KeyCode::CURSOR_LEFT,ModifierFlag::OPTION_L|ModifierFlag::SHIFT_L,KeyCode::DELETE</autogen> 
     <autogen>__KeyToKey__ KeyCode::8,ModifierFlag::FN, KeyCode::CURSOR_LEFT,ModifierFlag::COMMAND_L,KeyCode::CURSOR_DOWN,ModifierFlag::SHIFT_L,KeyCode::DELETE</autogen> 
+    <autogen>__KeyToKey__ KeyCode::F9,ModifierFlag::FN, KeyCode::DELETE</autogen> 
+    <autogen>__KeyToKey__ KeyCode::F10,ModifierFlag::FN, KeyCode::DELETE, ModifierFlag::FN</autogen> 
+
+    <autogen>__KeyToKey__ KeyCode::DOT,ModifierFlag::FN, KeyCode::DOT,ModifierFlag::CONTROL_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::QUOTE,ModifierFlag::FN, KeyCode::QUOTE,ModifierFlag ::CONTROL_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::SLASH,ModifierFlag::FN, KeyCode::SLASH,ModifierFlag::CONTROL_L</autogen> 
 
     <autogen>__KeyToKey__ KeyCode::N,ModifierFlag::FN, KeyCode::SPACE</autogen>
-    <autogen>__KeyToKey__ KeyCode::M,ModifierFlag::FN, KeyCode::SPACE</autogen>
+     <autogen>__KeyToKey__ KeyCode::M,ModifierFlag::FN, KeyCode::SPACE</autogen>
 
     <autogen>__KeyToKey__ KeyCode::RETURN,ModifierFlag::FN, KeyCode::CURSOR_RIGHT,ModifierFlag::COMMAND_L,KeyCode::RETURN</autogen>
 
