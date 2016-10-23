@@ -47,7 +47,10 @@
     <autogen>__KeyToKey__ KeyCode::8,ModifierFlag::FN, KeyCode::BRACKET_LEFT,KeyCode::BRACKET_RIGHT,KeyCode::CURSOR_LEFT</autogen>
     <autogen>__KeyToKey__ KeyCode::9,ModifierFlag::FN, KeyCode::9,ModifierFlag::SHIFT_L,KeyCode::0,ModifierFlag::SHIFT_L,KeyCode::CURSOR_LEFT</autogen>
     <autogen>__KeyToKey__ KeyCode::0,ModifierFlag::FN, KeyCode::SPACE,KeyCode::BRACKET_LEFT,ModifierFlag::SHIFT_L,KeyCode::BRACKET_RIGHT,ModifierFlag::SHIFT_L,KeyCode::CURSOR_LEFT,KeyCode::RETURN</autogen>
-
+    <autogen>__KeyToKey__ KeyCode::COMMA,ModifierFlag::FN, KeyCode::SPACE,KeyCode::COMMA,ModifierFlag::SHIFT_L,KeyCode::SPACE</autogen>
+    <autogen>__KeyToKey__ KeyCode::DOT,ModifierFlag::FN, KeyCode::SPACE,KeyCode::DOT,ModifierFlag::SHIFT_L,KeyCode::SPACE</autogen>
+    <autogen>__KeyToKey__ KeyCode::MINUS,ModifierFlag::FN, KeyCode::SPACE,KeyCode::MINUS,KeyCode::SPACE</autogen>
+    <autogen>__KeyToKey__ KeyCode::EQUAL,ModifierFlag::FN, KeyCode::SPACE,KeyCode::EQUAL,ModifierFlag::SHIFT_L,KeyCode::SPACE</autogen>
 
     <autogen>__KeyToKey__ KeyCode::DOT,ModifierFlag::FN, KeyCode::DOT,ModifierFlag::CONTROL_L</autogen>
     <autogen>__KeyToKey__ KeyCode::N,ModifierFlag::FN, KeyCode::DOT,ModifierFlag::CONTROL_L</autogen>
